@@ -1,6 +1,5 @@
 
 #Below is a sample Lambda function code using Boto3 to start and stop EC2 instances based on CloudWatch Events:
-```python
 
 import boto3
 region = 'us-east-2'
@@ -11,4 +10,4 @@ def lambda_handler(event, context):
     ec2.start_instances(InstanceIds=instances)
     ec2.stop_instances(InstanceIds=instances)
 
-```
+
