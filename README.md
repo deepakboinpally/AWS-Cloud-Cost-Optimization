@@ -1,5 +1,5 @@
 # AWS-Cloud-Cost-Optimization
-here's a project outline for an AWS Lambda function to optimize EC2 costs by starting and stopping instances using Boto3 and CloudWatch Events:
+here's a project for an AWS Lambda function to optimize EC2 costs by starting and stopping instances using Boto3 and CloudWatch Events:
 
 1.Create IAM Role:
    Create an IAM role with the necessary permissions for Lambda to start and stop EC2 instances. The permissions should include `ec2:StartInstances` and `ec2:StopInstances`.
